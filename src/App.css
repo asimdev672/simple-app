@@ -1,0 +1,110 @@
+*{margin: 0;  padding: 0; box-sizing: border-box;}
+.main-container{
+  width: 100%;
+  height: 50%;
+display: flex;
+justify-content: center;
+  /* border: 2px solid black; */
+  background-color: blanchedalmond;
+}
+.center-div{
+   /* border: 2px solid black; */
+   width: 120vh;
+   height: 90vh;
+   margin-top: 49px;
+   margin-bottom: 65px;
+   /* box-shadow: 3px 10px 26px -11px #4f4e54; */
+   border-radius: 40px;
+   /* background-color:#746d62; */
+   /* background-color:#dfdbdb; */
+   background-color: white;
+   box-shadow: inset 1px 2px 4px grey;
+}
+.heading{
+  text-align: center;
+  color: black;
+  margin-bottom: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+.tab{
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(82, 66, 66);
+  /* text-shadow: 2px 2px 4px #000000; */
+ 
+}
+.para{
+  margin: 2px 2px;
+  padding: 2px 3px;
+}
+.data{
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn{
+  margin: 2px 2px;
+  padding: 9px 18px;
+  border-radius: 6px;
+  color: white;
+}
+table{
+  width: 100%;
+  margin-top: 20px;
+}
+table tr th{
+  font-size: x-large;
+  text-shadow: 2px 0px 3px #000000;
+  
+}
+table tr .first{
+    padding-left: 20px;
+    padding-right: 88px;
+}
+.third-data{
+  padding-left: 135px;
+}
+table tr .last{
+  padding-right: 45px;
+}
+.second{
+  padding-right: 2px;
+}
+table tr td{
+  padding: 30px 145px;
+}
+.add-btn{
+  background-color:  #1ea91e;
+}
+.add-btn:hover{
+  background-color:  #088108;
+}
+.delete-btn{
+  background-color: #d71f1f;
+}
+.delete-btn:hover{
+  background-color: #b90e0e;
+}
+.update-btn{
+   background-color:  #03a9f4;
+  }
+.update-btn:hover{
+   background-color:  #0e8dc9;
+  }
+.name-style{
+  margin: 15px 95px;
+  padding: 10px 22px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid black
+}
+.age-style{
+    margin: 15px 3px;
+    padding: 10px 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid black
+}
